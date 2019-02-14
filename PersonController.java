@@ -13,7 +13,7 @@ import com.javatechie.springboot.springboothibernate.dao.PersonDao;
 import com.javatechie.springboot.springboothibernate.model.Person;
 
 @RestController
-//@RequestMapping("/spring-boot-orm")
+@RequestMapping("/spring-boot-orm")
 public class PersonController {
 	
 	@Autowired
